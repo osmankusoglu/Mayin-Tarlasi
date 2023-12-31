@@ -23,3 +23,5 @@ This project implements a simple Minesweeper game using the Java programming lan
 - Game instructions will be displayed on the screen. You can start playing the game by entering the row and column numbers.
 ## Technologies
 - Java
+## Java Version
+- This project is developed using Java version 21.
