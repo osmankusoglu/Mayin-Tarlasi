@@ -15,8 +15,9 @@ public class MineSweeper {
 
 
     /*
-     * MineSweeper sınıfının kurucu metodu.
-     * Yeni bir MineSweeper nesnesi oluşturur ve oyunu başlatır.
+     * Yeni bir MineSweeper nesnesi oluşturur ve oyunu temsil eden özellikleri başlatır.
+     * @param row    Mayın tarlasının satır sayısı
+     * @param column Mayın tarlasının sütun sayısı
      */
     public MineSweeper(int row, int column) {
         this.row = row;
@@ -81,6 +82,10 @@ public class MineSweeper {
     /*
      * Mayın haritasını ekrana yazdıran metot.
      * Her bir hücrenin değerini ekrana bastırır, mayın (*) varsa gösterir, yoksa '-' karakterini gösterir.
+     *
+     * @param row Oyun tahtasının satır sayısı
+     * @param column Oyun tahtasının sütun sayısı
+     * @param mineMap Oyun tahtasındaki mayın haritası
      */
     public void printMineMap() {
         // Mayın haritasını döngülerle gezerek her bir hücrenin değerini ekrana yazdırır.
